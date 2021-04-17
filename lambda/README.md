@@ -1,6 +1,6 @@
 # Quarkus example project for AWS Lambda
 
-Pre-requisites:
+Pre-requisites: for Ubuntu Server
 
 Common Setup:
 sudo apt install openjdk-11-jdk
@@ -29,6 +29,8 @@ AWS CLI:
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+
+Then setup  AWS CLI Using "aws configure" command
 
 
 Update the Properties with below config:
